@@ -9,11 +9,19 @@
     height: 500px;
     float: left;
     width: 300px/960px*100%;
+    margin: 0 10px/960px*100%;
   }
 
-  .plan.premium {
-    margin: 0 30px/960px*100%;
+  @media all and (max-width: 420px) {
+    .plan {
+      width: 100%;
+      float: none;
+      margin: 0;
+    }
   }
+
 
   img { max-width: 100%;}
 }
+
+
